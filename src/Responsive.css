@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,700&display=swap");
+/**/
+/*set default values on all elements*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400px;
+  font-size: 14px;
+}
+
+body {
+  font-weight: 300;
+  font-family: monospace;
+}
+/*responsive website*/
+/*screen with max width of 480px(mobile device)*/
+@media (max-width: 768px) {
+  body {
+    color: #ffffff;
+  }
+  /*nav*/
+  nav {
+    width: 100%;
+  }
+  .banner-wrap{
+    max-width: 100%;
+  }
+  .middle-menu {
+    display: none;
+  }
+
+  .right-menu {
+    display: none;
+  }
+  .btn-menu {
+    visibility: visible;
+    background: #0000000d;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .title-section {
+    position: relative;
+    bottom: 60px;
+    left: 30px;
+  }
+  /*images*/
+  .image-section {
+    max-width: 100%;
+    height: auto;
+  }
+  .title-section-images{
+    position: absolute;
+    bottom: 30px;
+  }
+}
+  /*screen with max width of 480px(mobile device)*/
+@media (max-width:480px) {
+  body {
+    color: #ffffff;
+  }
+  /*nav*/
+  nav {
+    width: 100%;
+  }
+  .middle-menu {
+    display: none;
+  }
+  .banner-wrap{
+    max-width: 100%;
+  }
+  .right-menu {
+    display: none;
+  }
+  .btn-menu {
+    visibility: visible;
+    background: #0000000d;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .title-section {
+    position: relative;
+    bottom: 60px;
+  }
+  /*images*/
+  .image-section {
+    max-width: 100%;
+    height: auto;
+  }
+}
+/*screen with max width of 480px(mobile device)*/
+@media (max-width: 768px) {
+    body {
+      color: #ffffff;
+    }
+    /*nav*/
+    nav {
+      width: 100%;
+    }
+    .middle-menu {
+      display: none;
+    }
+  
+    .right-menu {
+      display: none;
+    }
+    .btn-menu {
+      visibility: visible;
+      background: #0000000d;
+      padding: 5px 15px;
+      border-radius: 5px;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .title-section {
+      position: relative;
+      bottom: 60px;
+    }
+    /*images*/
+    .image-section {
+      max-width: 100%;
+      height: auto;
+    }
+}

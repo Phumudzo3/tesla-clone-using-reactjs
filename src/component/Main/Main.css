@@ -1,0 +1,67 @@
+/*style main element*/
+main {
+  margin-top: 2px;
+  text-align: center;
+  height: calc(100vh - 56px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+title-section {
+  margin-top: calc(164px - 56px);
+}
+.title-section {
+  margin-top: 15px;
+}
+.text {
+  margin-top: 10px;
+}
+.text p {
+  padding: 2px 0px;
+}
+.action-area {
+  margin-top: 50px;
+}
+.action-area p {
+  margin-top: 20px;
+  font-size: 12, 6px;
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 500px;
+}
+p {
+  font-size: 14px;
+  font-weight: 500px;
+  padding: 6px 24px 16px 24px;
+}
+
+/*hover style*/
+.nav-item:hover {
+  background-color: aliceblue;
+}
+/*botton style*/
+.btn-dark {
+  border: none;
+  background: none;
+  background: #f4f4f4cc;
+  margin: 10px;
+  border-radius: 5px;
+  color: #393c41;
+  cursor: pointer;
+  font-weight: 600;
+}
+.btn-light {
+  border: none;
+  background: none;
+  background: rgba(23, 26, 32, 0.65);
+  margin: 10px;
+  border-radius: 5px;
+  color: aliceblue;
+  font-weight: 600;
+}
+button {
+  padding: 15px 60px;
+}
